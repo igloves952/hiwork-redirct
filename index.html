@@ -20,7 +20,7 @@
       function getafterhash(url) {
         var ret;
         var queryString;
-        // stuff after # is not part of query string, so get rid of it
+        // stuff after ? is not part of query string, so get rid of it
         queryStringhash = url.split('?')[1];
         queryStringsemi = url.split(';')[1];
         queryStringsemiplus = url.split(';+')[1];
@@ -51,6 +51,7 @@
   </body>
 
 </html>
+
 
 
 
